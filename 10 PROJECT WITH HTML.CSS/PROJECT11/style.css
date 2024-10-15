@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    background-color:red;
+    
+}
+main{
+    box-shadow: none;
+    background:linear-gradient(to right,blue,aqua);
+    color: aliceblue;
+}
+.inline ,a{
+
+    background-color: black;
+    margin-left:80px;
+
+    
+    
+}
+.center{
+text-align: center;
+color: rgb(15, 13, 10);
+}
+a{
+    color:rgb(230, 30, 16);
+    font-size: 40px;
+    display: inline;
+    box-sizing: border-box;
+}

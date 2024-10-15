@@ -1,0 +1,125 @@
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  border:5px solid black;
+    
+}
+
+header {
+    background:linear-gradient(to right,rgb(218, 179, 8),rgb(0, 0, 0),rgb(0, 0, 0),rgba(240, 205, 6, 0.938));
+    padding: 10px;
+    text-align: center;
+    width:100%;
+    border-radius: 10%;
+}
+nav li {
+  background: blue
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:rgb(238, 195, 6);
+    text-decoration: none;
+}
+#about{
+    border:10px solid black;
+    background:conic-gradient(from 60deg,rgb(15, 15, 15),rgb(1, 1, 7),rgb(8, 8, 1),rgb(223, 191, 12),yellow);
+    border-radius: 10%;
+}
+
+section {
+    color:black;
+    padding: 10px;
+    width: 95%
+}
+
+#projects {
+    background:linear-gradient(to right,rgb(0, 12, 17),rgb(214, 193, 6),rgb(10, 10, 9));
+    color:rgb(238, 184, 8);
+    padding: 10px;
+    text-align: center;
+    width:100%;
+    text-decoration-color:red;
+    border-radius: 10%;
+    
+    
+}
+.Pro projectslist1,projectslist2,projectslist3,a{
+    display:inline;
+    text-align:center;
+    display:flex;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    padding:10px;
+    background-color:rgb(20, 20, 20);
+    text-decoration:none;
+    border-radius:40px;
+    color:rgb(238, 222, 6);
+    
+}
+#contact{
+    border:10px solid rgb(7, 5, 0);
+    background:repeating-linear-gradient(to right,black,rgb(226, 212, 9));
+    border-radius:10%;
+    
+}
+#name{
+    margin-left:32%;
+    background:linear-gradient(to right ,yellow,black);
+    
+}
+#email{
+margin-left: 32%;
+    background: linear-gradient(to right, yellow, black);
+    
+
+}
+
+#message{
+    margin-left: 29%;
+    background-color: rgb(6, 12, 12);
+    color: coral;
+    border:10px solid rgb(241, 166, 5);
+    border-radius: 30%;
+}
+
+
+button{
+    margin-left: 45%;
+    color: rgb(15, 15, 15);
+    background-color:rgba(255, 145, 0, 0.856) ;
+    border-radius: 40%;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: rgba(240, 224, 10, 0.795);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h1 ,h2{
+  background:rgb(26, 25, 25);
+    font-size:30px;
+    border-radius:20px;
+    border:5px solid rgb(236, 213, 7);
+    text-align:center;
+    color:rgb(204, 159, 12);
+    
+}
+p{
+    font-size:20px;
+    color:rgb(228, 194, 6);
+}
